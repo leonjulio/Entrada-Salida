@@ -87,7 +87,7 @@
   <string role="key" value="_name"></string>
   <unicode value="entradaSalida"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="15"></int>
+  <int value="16"></int>
   <string role="key" value="_nextNodeId"></string>
   <int value="7"></int>
   <string role="key" value="_nodeIdDict"></string>
@@ -1259,425 +1259,7 @@
               <int value="0"></int>
              </dictionary>
             </instance>
-           </list>
-           <string role="key" value="_id"></string>
-           <unicode value="3"></unicode>
-           <string role="key" value="_package"></string>
-           <reference key="2"></reference>
-           <string role="key" value="anchor_fields"></string>
-           <list></list>
-           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-           <int value="2"></int>
-           <string role="key" value="exportType"></string>
-           <string value="website"></string>
-           <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Inicio:Introducci%C3%B3n:Actividad%20preliminar"></string>
-           <string role="key" value="parent"></string>
-           <reference key="8"></reference>
-           <string role="key" value="top_anchors_linked_from_fields"></string>
-           <list></list>
-           <string role="key" value="children"></string>
-           <list></list>
-          </dictionary>
-         </instance>
-        </list>
-       </dictionary>
-      </instance>
-      <instance class="exe.engine.node.Node" reference="26">
-       <dictionary>
-        <string role="key" value="_title"></string>
-        <unicode value="Desarrollo"></unicode>
-        <string role="key" value="idevices"></string>
-        <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="24">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value=""></unicode>
-           <string role="key" value="_attributes"></string>
-           <list>
-            <tuple>
-             <string value="title"></string>
-             <list>
-              <string value="Title"></string>
-              <int value="0"></int>
-              <int value="0"></int>
-             </list>
-            </tuple>
-            <tuple>
-             <string value="category"></string>
-             <list>
-              <string value="Category"></string>
-              <int value="0"></int>
-              <int value="1"></int>
-             </list>
-            </tuple>
-            <tuple>
-             <string value="css-class"></string>
-             <list>
-              <string value="CSS class"></string>
-              <int value="0"></int>
-              <int value="2"></int>
-             </list>
-            </tuple>
-            <tuple>
-             <string value="icon"></string>
-             <list>
-              <string value="Icon"></string>
-              <int value="0"></int>
-              <int value="3"></int>
-             </list>
-            </tuple>
-           </list>
-           <string role="key" value="_author"></string>
-           <string value=""></string>
-           <string role="key" value="_iDeviceDir"></string>
-           <string value="text"></string>
-           <string role="key" value="_purpose"></string>
-           <string value=""></string>
-           <string role="key" value="_tip"></string>
-           <string value=""></string>
-           <string role="key" value="_typeName"></string>
-           <unicode value="Text"></unicode>
-           <string role="key" value="_valid"></string>
-           <bool value="1"></bool>
-           <string role="key" value="class_"></string>
-           <unicode value="text"></unicode>
-           <string role="key" value="edit"></string>
-           <bool value="0"></bool>
-           <string role="key" value="emphasis"></string>
-           <int value="0"></int>
-           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
-           <int value="1"></int>
-           <string role="key" value="fields"></string>
-           <list>
-            <instance class="exe.engine.field.TextAreaField" reference="25">
-             <dictionary>
-              <string role="key" value="_id"></string>
-              <unicode value="130_2"></unicode>
-              <string role="key" value="_idevice"></string>
-              <reference key="24"></reference>
-              <string role="key" value="_instruc"></string>
-              <string value=""></string>
-              <string role="key" value="_name"></string>
-              <string value=""></string>
-              <string role="key" value="anchor_names"></string>
-              <list></list>
-              <string role="key" value="anchors_linked_from_fields"></string>
-              <dictionary></dictionary>
-              <string role="key" value="content_w_resourcePaths"></string>
-              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Cuando hablamos de E/S de información entre un computador y un periférico lo hacemos siempre desde el punto de vista del computador. Así, decimos que es una transferencia de entrada cuando el periférico es el emisor de la información y tiene como receptor el computador (procesador o memoria) y decimos que es una transferencia de salida cuando el computador es el emisor de la información y tiene como receptor el periférico. De manera más concreta, toda operación de E/S que se lleva a cabo entre el computador y un periférico es solicitada y gobernada desde el procesador, es decir, es el procesador quien determina en qué momento se debe hacer y con qué periférico, si la operación es de lectura o escritura, qué datos se han de transferir, y también quién da la operación por acabada.&lt;/p&gt;
-&lt;p&gt;Para llevar a cabo la operación de E/S, se a de conectar el periférico al computador. Para hacerlo, es necesario que el computador disponga de unos dispositivos intermedios por donde ha de pasar toda la información que intercambia el computador con el periférico y que permite hacer una gestión y un control correctos de la transferencia. Estos dispositivos son llamados de manera genérica módulo de E/S.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://telegra.ph/sistema-de-entrada--salida-part-I-01-13&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;sistema de entrada / salida (part I)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Para llevar a cabo la operación de E/S, hemos de conectar el periférico al computador. Para hacerlo, es necesario que el computador disponga de unos dispositivos intermedios por donde ha de pasar toda la información que inter- cambia el computador con el periférico y que nos permite hacer una gestión y un control correctos de la transferencia. Estos dispositivos los llamamos de manera genérica módulo de E/S. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;resources/img0.png&quot; width=&quot;229&quot; height=&quot;267&quot; alt=&quot;periferico&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Un módulo de E/S es un controlador de uno o varios periféricos que establece una interfaz entre el periférico y el computador (procesador y memoria) para facilitar la comunicación entre el uno y el otro de manera que buena parte de los detalles técnicos del periférico queden ocultos al resto del computador.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://telegra.ph/m%C3%B3dulos-de-es-part-II-01-13&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;módulos de e/s (part II)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://telegra.ph/direccionamiento-de-m%C3%B3dulos-es-01-13&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;direccionamiento de módulos e/s (part III)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Todos los computadores deben gestionar más de un periférico y estos pueden trabajar al mismo tiempo; por ejemplo, estamos imprimiendo un documento que tenemos guardado en el disco mientras escribimos un texto con el teclado que se muestra por pantalla. Por lo tanto, hemos de prever que nuestro sistema de E/S pueda gestionar transferencias de E/S con dos o más periféricos simultáneamente. Eso quiere decir que de manera simultánea dos o más módulos de E/S deben estar preparados para hacer la transferencia de datos con el procesador, pero la transferencia no la podemos hacer al mismo tiempo. Por este motivo, hemos de disponer de un sistema que, primero, nos permita determinar cuáles son los módulos a los que tenemos que atender (identificar los módulos de E/S que están preparados para la operación de E/S) y, segundo, nos permita decidir a quién atendemos primero, teniendo en cuenta que si ya atendemos a otro periférico o hacemos otra tarea más prioritaria no la podemos interrumpir (establecer una política de prioridades).&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://telegra.ph/gesti%C3%B3n-de-la-ES-part-IV-01-13&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;gestión de la E/S (part IV)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Las técnicas de E/S que  requieren una dedicación importante del procesador (ejecutar un fragmento de código) para hacer simples transferencias de datos. Si queremos transferir bloques de datos, estas técnicas todavía ponen más en evidencia la ineficiencia que tienen. En E/S programada implica que el procesador no pueda hacer nada más y en E/S por interrupciones descargamos el procesador de la sincronización a costa de hacer las rutinas de atención más largas para garantizar el estado del procesador, lo que limita la velocidad de transferencia.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://telegra.ph/acceso-directo-a-memoria-part-VI-01-13&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;acceso directo a memoria&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
-              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-              <int value="4"></int>
-              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-              <int value="2"></int>
-              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-              <int value="3"></int>
-              <string role="key" value="htmlTag"></string>
-              <string value="div"></string>
-              <string role="key" value="images"></string>
-              <instance class="exe.engine.galleryidevice.GalleryImages">
-               <dictionary>
-                <string role="key" value=".listitems"></string>
-                <list>
-                 <instance class="exe.engine.galleryidevice.GalleryImage">
-                  <dictionary>
-                   <string role="key" value="_caption"></string>
-                   <instance class="exe.engine.field.TextField">
-                    <dictionary>
-                     <string role="key" value="_id"></string>
-                     <int value="281"></int>
-                     <string role="key" value="_idevice"></string>
-                     <none></none>
-                     <string role="key" value="_instruc"></string>
-                     <string value=""></string>
-                     <string role="key" value="_name"></string>
-                     <string value=""></string>
-                     <string role="key" value="content"></string>
-                     <string value=""></string>
-                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                     <int value="4"></int>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="_id"></string>
-                   <unicode value="0_130_2.4"></unicode>
-                   <string role="key" value="_imageResource"></string>
-                   <instance class="exe.engine.resource.Resource" reference="27">
-                    <dictionary>
-                     <string role="key" value="_idevice"></string>
-                     <reference key="24"></reference>
-                     <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
-                     <string role="key" value="_storageName"></string>
-                     <string value="img0.png"></string>
-                     <string role="key" value="_userName"></string>
-                     <string value="c:\\users\\lacesu\\appdata\\local\\temp\\tmpbkwu6b\\img0.png"></string>
-                     <string role="key" value="checksum"></string>
-                     <string value="464c01eac5ce6685f6e3b914fc9d2cf8"></string>
-                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
-                     <int value="2"></int>
-                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
-                     <int value="2"></int>
-                     <string role="key" value="warningMsg"></string>
-                     <string value=""></string>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="_parent"></string>
-                   <reference key="25"></reference>
-                   <string role="key" value="_thumbnailResource"></string>
-                   <none></none>
-                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
-                   <int value="3"></int>
-                   <string role="key" value="makeThumbnail"></string>
-                   <bool value="0"></bool>
-                  </dictionary>
-                 </instance>
-                </list>
-                <string role="key" value="idevice"></string>
-                <reference key="25"></reference>
-               </dictionary>
-              </instance>
-              <string role="key" value="intlinks_to_anchors"></string>
-              <dictionary></dictionary>
-              <string role="key" value="nextImageId"></string>
-              <int value="5"></int>
-              <string role="key" value="parentNode"></string>
-              <reference key="26"></reference>
-             </dictionary>
-            </instance>
-           </list>
-           <string role="key" value="icon"></string>
-           <unicode value=""></unicode>
-           <string role="key" value="id"></string>
-           <unicode value="0"></unicode>
-           <string role="key" value="ideviceCategory"></string>
-           <unicode value="Text and Tasks"></unicode>
-           <string role="key" value="lastIdevice"></string>
-           <bool value="0"></bool>
-           <string role="key" value="nextFieldId"></string>
-           <int value="3"></int>
-           <string role="key" value="originalicon"></string>
-           <string value=""></string>
-           <string role="key" value="parentNode"></string>
-           <reference key="26"></reference>
-           <string role="key" value="systemResources"></string>
-           <list></list>
-           <string role="key" value="undo"></string>
-           <bool value="1"></bool>
-           <string role="key" value="userResources"></string>
-           <list>
-            <reference key="27"></reference>
-           </list>
-           <string role="key" value="version"></string>
-           <int value="0"></int>
-          </dictionary>
-         </instance>
-        </list>
-        <string role="key" value="_id"></string>
-        <unicode value="4"></unicode>
-        <string role="key" value="_package"></string>
-        <reference key="2"></reference>
-        <string role="key" value="anchor_fields"></string>
-        <list></list>
-        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-        <int value="2"></int>
-        <string role="key" value="exportType"></string>
-        <string value="website"></string>
-        <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Inicio:Desarrollo"></string>
-        <string role="key" value="parent"></string>
-        <reference key="4"></reference>
-        <string role="key" value="top_anchors_linked_from_fields"></string>
-        <list></list>
-        <string role="key" value="children"></string>
-        <list></list>
-       </dictionary>
-      </instance>
-      <instance class="exe.engine.node.Node" reference="30">
-       <dictionary>
-        <string role="key" value="_title"></string>
-        <unicode value="Cierre"></unicode>
-        <string role="key" value="idevices"></string>
-        <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="28">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value=""></unicode>
-           <string role="key" value="_attributes"></string>
-           <list>
-            <tuple>
-             <string value="title"></string>
-             <list>
-              <string value="Title"></string>
-              <int value="0"></int>
-              <int value="0"></int>
-             </list>
-            </tuple>
-            <tuple>
-             <string value="category"></string>
-             <list>
-              <string value="Category"></string>
-              <int value="0"></int>
-              <int value="1"></int>
-             </list>
-            </tuple>
-            <tuple>
-             <string value="css-class"></string>
-             <list>
-              <string value="CSS class"></string>
-              <int value="0"></int>
-              <int value="2"></int>
-             </list>
-            </tuple>
-            <tuple>
-             <string value="icon"></string>
-             <list>
-              <string value="Icon"></string>
-              <int value="0"></int>
-              <int value="3"></int>
-             </list>
-            </tuple>
-           </list>
-           <string role="key" value="_author"></string>
-           <string value=""></string>
-           <string role="key" value="_iDeviceDir"></string>
-           <string value="text"></string>
-           <string role="key" value="_purpose"></string>
-           <string value=""></string>
-           <string role="key" value="_tip"></string>
-           <string value=""></string>
-           <string role="key" value="_typeName"></string>
-           <unicode value="Text"></unicode>
-           <string role="key" value="_valid"></string>
-           <bool value="1"></bool>
-           <string role="key" value="class_"></string>
-           <unicode value="text"></unicode>
-           <string role="key" value="edit"></string>
-           <bool value="0"></bool>
-           <string role="key" value="emphasis"></string>
-           <int value="0"></int>
-           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
-           <int value="1"></int>
-           <string role="key" value="fields"></string>
-           <list>
-            <instance class="exe.engine.field.TextAreaField" reference="29">
-             <dictionary>
-              <string role="key" value="_id"></string>
-              <unicode value="128_2"></unicode>
-              <string role="key" value="_idevice"></string>
-              <reference key="28"></reference>
-              <string role="key" value="_instruc"></string>
-              <string value=""></string>
-              <string role="key" value="_name"></string>
-              <string value=""></string>
-              <string role="key" value="anchor_names"></string>
-              <list></list>
-              <string role="key" value="anchors_linked_from_fields"></string>
-              <dictionary></dictionary>
-              <string role="key" value="content_w_resourcePaths"></string>
-              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;Actividades Parte 1. Realiza actividades sobre DMA, IRQ y E/S programada &lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;1. Investigación y presentación comparativa&lt;/strong&gt;&lt;br /&gt;&lt;em&gt;Objetivo&lt;/em&gt;: Profundizar en las ventajas y desventajas de cada método.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Actividad&lt;/em&gt;: Investiga los casos en los que se usan DMA, IRQ y E/S programada en dispositivos reales.&lt;br /&gt;Realiza una presentación con gráficos y ejemplos para cada método, resaltando sus aplicaciones más comunes.&lt;br /&gt;Incluye un cuadro comparativo con los beneficios y limitaciones de cada técnica.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2. Ejercicio práctico de programación mediante diagramas&lt;/strong&gt;&lt;br /&gt;&lt;em&gt;Objetivo&lt;/em&gt;: Experimentar con la implementación de interrupciones en programación.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Actividad&lt;/em&gt;: Realiza un diagrama que simule el manejo de interrupciones con IRQ.&lt;br /&gt;donde se simule las funciones de los dispositivos periféricos que generen interrupciones.&lt;br /&gt;Analiza el comportamiento del código y cómo se optimiza el uso de la CPU con interrupciones.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;3. Juego de roles: Simulación de procesos de una computadora&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Objetivo&lt;/em&gt;: Comprender el funcionamiento de los métodos de transferencia de datos a través de un modelo (diagrama).&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Actividad&lt;/em&gt;: Con los siguientes elementos como CPU, memoria, dispositivos periféricos y controladores DMA/IRQ.&lt;br /&gt;Simula cómo cada método maneja la comunicación entre los dispositivos, destacando cuándo la CPU interviene y cuándo no.&lt;br /&gt;Usa elementos visuales(imágenes, como etiquetas o cartas, etc... para representar cuándo se produce una interrupción o una transferencia de datos.)&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Actividades Parte 2: Realiza actividades en las que los diagramas y mapas ayudarán a visualizar el funcionamiento de DMA, IRQ y E/S programada:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;4. Mapa conceptual de los métodos de E/S&lt;/strong&gt;&lt;br /&gt;&lt;em&gt;Objetivo&lt;/em&gt;: Organizar de forma gráfica los conceptos clave.&lt;br /&gt;&lt;em&gt;Actividad&lt;/em&gt;: Crea un mapa conceptual donde se conecten los métodos de E/S con sus características principales.&lt;br /&gt;Se establecen relaciones entre velocidad de transferencia, intervención de la CPU y eficiencia.&lt;br /&gt;Al final, comparar los mapas e indicar cuál método resulta más óptimo en diferentes escenarios.&lt;br /&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;5. Diagrama de flujo de la transferencia de datos&lt;/strong&gt;&lt;br /&gt;&lt;em&gt;Objetivo&lt;/em&gt;: Representar el paso a paso de la gestión de datos con cada método.&lt;br /&gt;&lt;em&gt;Actividad&lt;/em&gt;: Se dibujan diagramas de flujo que expliquen cómo se procesan las solicitudes de interrupción, la transferencia DMA y la E/S programada.&lt;br /&gt;Se usan colores o símbolos para identificar cuándo interviene la CPU y cuándo el proceso ocurre sin su participación directa.&lt;br /&gt;Cada grupo presenta su diagrama y analiza sus ventajas frente a los otros métodos.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;6. Mapa de procesos en hardware y software&lt;/strong&gt;&lt;br /&gt;&lt;em&gt;Objetivo&lt;/em&gt;: Relacionar los conceptos con ejemplos reales.&lt;br /&gt;&lt;em&gt;Actividad&lt;/em&gt;: Se diseñan mapas que conecten los métodos de E/S con dispositivos reales: discos duros, tarjetas de sonido, impresoras, etc.&lt;br /&gt;Se clasifican los dispositivos según qué método utilizan y qué impacto tiene en el rendimiento de la computadora.&lt;br /&gt;Se comparan mapas y se reflexiona sobre la mejor opción para diferentes usos.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;7. Diseño de arquitectura con diagramas de bloques&lt;/strong&gt;&lt;br /&gt;&lt;em&gt;Objetivo&lt;/em&gt;: Visualizar la comunicación entre CPU, memoria y periféricos.&lt;br /&gt;&lt;em&gt;Actividad&lt;/em&gt;: Se crean diagramas de bloques que representen la arquitectura del sistema en cada método de E/S.&lt;br /&gt;Se incluyen elementos clave como buses de datos, controladores y dispositivos.&lt;br /&gt;Al final, se discute cómo la elección del método afecta el rendimiento general del sistema.&lt;br /&gt;Estas actividades refuerzan el aprendizaje a través de representaciones visuales. ¿Te gustaría que agregara alguna actividad más práctica con software de simulación? 🚀&lt;/p&gt;&lt;/div&gt;"></unicode>
-              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-              <int value="4"></int>
-              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-              <int value="2"></int>
-              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-              <int value="3"></int>
-              <string role="key" value="htmlTag"></string>
-              <string value="div"></string>
-              <string role="key" value="images"></string>
-              <instance class="exe.engine.galleryidevice.GalleryImages">
-               <dictionary>
-                <string role="key" value=".listitems"></string>
-                <list></list>
-                <string role="key" value="idevice"></string>
-                <reference key="29"></reference>
-               </dictionary>
-              </instance>
-              <string role="key" value="intlinks_to_anchors"></string>
-              <dictionary></dictionary>
-              <string role="key" value="nextImageId"></string>
-              <int value="0"></int>
-              <string role="key" value="parentNode"></string>
-              <reference key="30"></reference>
-             </dictionary>
-            </instance>
-           </list>
-           <string role="key" value="icon"></string>
-           <unicode value=""></unicode>
-           <string role="key" value="id"></string>
-           <unicode value="6"></unicode>
-           <string role="key" value="ideviceCategory"></string>
-           <unicode value="Text and Tasks"></unicode>
-           <string role="key" value="lastIdevice"></string>
-           <bool value="0"></bool>
-           <string role="key" value="nextFieldId"></string>
-           <int value="3"></int>
-           <string role="key" value="originalicon"></string>
-           <string value=""></string>
-           <string role="key" value="parentNode"></string>
-           <reference key="30"></reference>
-           <string role="key" value="systemResources"></string>
-           <list></list>
-           <string role="key" value="undo"></string>
-           <bool value="1"></bool>
-           <string role="key" value="userResources"></string>
-           <list></list>
-           <string role="key" value="version"></string>
-           <int value="0"></int>
-          </dictionary>
-         </instance>
-        </list>
-        <string role="key" value="_id"></string>
-        <unicode value="5"></unicode>
-        <string role="key" value="_package"></string>
-        <reference key="2"></reference>
-        <string role="key" value="anchor_fields"></string>
-        <list></list>
-        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-        <int value="2"></int>
-        <string role="key" value="exportType"></string>
-        <string value="website"></string>
-        <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Inicio:Cierre"></string>
-        <string role="key" value="parent"></string>
-        <reference key="4"></reference>
-        <string role="key" value="top_anchors_linked_from_fields"></string>
-        <list></list>
-        <string role="key" value="children"></string>
-        <list>
-         <instance class="exe.engine.node.Node" reference="33">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="actividad integral"></unicode>
-           <string role="key" value="idevices"></string>
-           <list>
-            <instance class="exe.engine.jsidevice.JsIdevice" reference="31">
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="24">
              <dictionary>
               <string role="key" value="_title"></string>
               <unicode value=""></unicode>
@@ -1738,12 +1320,555 @@
               <int value="1"></int>
               <string role="key" value="fields"></string>
               <list>
-               <instance class="exe.engine.field.TextAreaField" reference="32">
+               <instance class="exe.engine.field.TextAreaField" reference="25">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <unicode value="131_2"></unicode>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="24"></reference>
+                 <string role="key" value="_instruc"></string>
+                 <string value=""></string>
+                 <string role="key" value="_name"></string>
+                 <string value=""></string>
+                 <string role="key" value="anchor_names"></string>
+                 <list></list>
+                 <string role="key" value="content_w_resourcePaths"></string>
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;iframe width=&quot;900&quot; height=&quot;700&quot; src=&quot;https://www.youtube.com/embed/dLuhiB1-gCk&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                 <int value="3"></int>
+                 <string role="key" value="htmlTag"></string>
+                 <string value="div"></string>
+                 <string role="key" value="images"></string>
+                 <instance class="exe.engine.galleryidevice.GalleryImages">
+                  <dictionary>
+                   <string role="key" value=".listitems"></string>
+                   <list></list>
+                   <string role="key" value="idevice"></string>
+                   <reference key="25"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="intlinks_to_anchors"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="nextImageId"></string>
+                 <int value="0"></int>
+                 <string role="key" value="parentNode"></string>
+                 <none></none>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="icon"></string>
+              <unicode value=""></unicode>
+              <string role="key" value="id"></string>
+              <unicode value="15"></unicode>
+              <string role="key" value="ideviceCategory"></string>
+              <unicode value="Text and Tasks"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="nextFieldId"></string>
+              <int value="3"></int>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parentNode"></string>
+              <reference key="14"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="3"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="2"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exportType"></string>
+           <string value="website"></string>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:Inicio:Introducci%C3%B3n:Actividad%20preliminar"></string>
+           <string role="key" value="parent"></string>
+           <reference key="8"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+        </list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="28">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Desarrollo"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="26">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
+           <string role="key" value="_author"></string>
+           <string value=""></string>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="text"></string>
+           <string role="key" value="_purpose"></string>
+           <string value=""></string>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_typeName"></string>
+           <unicode value="Text"></unicode>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="text"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="27">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="130_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="26"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Cuando hablamos de E/S de información entre un computador y un periférico lo hacemos siempre desde el punto de vista del computador. Así, decimos que es una transferencia de entrada cuando el periférico es el emisor de la información y tiene como receptor el computador (procesador o memoria) y decimos que es una transferencia de salida cuando el computador es el emisor de la información y tiene como receptor el periférico. De manera más concreta, toda operación de E/S que se lleva a cabo entre el computador y un periférico es solicitada y gobernada desde el procesador, es decir, es el procesador quien determina en qué momento se debe hacer y con qué periférico, si la operación es de lectura o escritura, qué datos se han de transferir, y también quién da la operación por acabada.&lt;/p&gt;
+&lt;p&gt;Para llevar a cabo la operación de E/S, se a de conectar el periférico al computador. Para hacerlo, es necesario que el computador disponga de unos dispositivos intermedios por donde ha de pasar toda la información que intercambia el computador con el periférico y que permite hacer una gestión y un control correctos de la transferencia. Estos dispositivos son llamados de manera genérica módulo de E/S.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://telegra.ph/sistema-de-entrada--salida-part-I-01-13&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;sistema de entrada / salida (part I)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Para llevar a cabo la operación de E/S, hemos de conectar el periférico al computador. Para hacerlo, es necesario que el computador disponga de unos dispositivos intermedios por donde ha de pasar toda la información que inter- cambia el computador con el periférico y que nos permite hacer una gestión y un control correctos de la transferencia. Estos dispositivos los llamamos de manera genérica módulo de E/S. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/img0.png&quot; width=&quot;229&quot; height=&quot;267&quot; alt=&quot;periferico&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Un módulo de E/S es un controlador de uno o varios periféricos que establece una interfaz entre el periférico y el computador (procesador y memoria) para facilitar la comunicación entre el uno y el otro de manera que buena parte de los detalles técnicos del periférico queden ocultos al resto del computador.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://telegra.ph/m%C3%B3dulos-de-es-part-II-01-13&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;módulos de e/s (part II)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://telegra.ph/direccionamiento-de-m%C3%B3dulos-es-01-13&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;direccionamiento de módulos e/s (part III)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Todos los computadores deben gestionar más de un periférico y estos pueden trabajar al mismo tiempo; por ejemplo, estamos imprimiendo un documento que tenemos guardado en el disco mientras escribimos un texto con el teclado que se muestra por pantalla. Por lo tanto, hemos de prever que nuestro sistema de E/S pueda gestionar transferencias de E/S con dos o más periféricos simultáneamente. Eso quiere decir que de manera simultánea dos o más módulos de E/S deben estar preparados para hacer la transferencia de datos con el procesador, pero la transferencia no la podemos hacer al mismo tiempo. Por este motivo, hemos de disponer de un sistema que, primero, nos permita determinar cuáles son los módulos a los que tenemos que atender (identificar los módulos de E/S que están preparados para la operación de E/S) y, segundo, nos permita decidir a quién atendemos primero, teniendo en cuenta que si ya atendemos a otro periférico o hacemos otra tarea más prioritaria no la podemos interrumpir (establecer una política de prioridades).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://telegra.ph/gesti%C3%B3n-de-la-ES-part-IV-01-13&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;gestión de la E/S (part IV)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Las técnicas de E/S que  requieren una dedicación importante del procesador (ejecutar un fragmento de código) para hacer simples transferencias de datos. Si queremos transferir bloques de datos, estas técnicas todavía ponen más en evidencia la ineficiencia que tienen. En E/S programada implica que el procesador no pueda hacer nada más y en E/S por interrupciones descargamos el procesador de la sincronización a costa de hacer las rutinas de atención más largas para garantizar el estado del procesador, lo que limita la velocidad de transferencia.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://telegra.ph/acceso-directo-a-memoria-part-VI-01-13&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;acceso directo a memoria&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="281"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="0_130_2.4"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="29">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="26"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="2"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="img0.png"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="c:\\users\\lacesu\\appdata\\local\\temp\\tmpbkwu6b\\img0.png"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="464c01eac5ce6685f6e3b914fc9d2cf8"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="27"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                </list>
+                <string role="key" value="idevice"></string>
+                <reference key="27"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="5"></int>
+              <string role="key" value="parentNode"></string>
+              <reference key="28"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="0"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Text and Tasks"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="28"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list>
+            <reference key="29"></reference>
+           </list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="4"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="2"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Inicio:Desarrollo"></string>
+        <string role="key" value="parent"></string>
+        <reference key="4"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="32">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Cierre"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="30">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
+           <string role="key" value="_author"></string>
+           <string value=""></string>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="text"></string>
+           <string role="key" value="_purpose"></string>
+           <string value=""></string>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_typeName"></string>
+           <unicode value="Text"></unicode>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="text"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="31">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="128_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="30"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;Actividades Parte 1. Realiza actividades sobre DMA, IRQ y E/S programada &lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Investigación y presentación comparativa&lt;/strong&gt;&lt;br /&gt;&lt;em&gt;Objetivo&lt;/em&gt;: Profundizar en las ventajas y desventajas de cada método.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Actividad&lt;/em&gt;: Investiga los casos en los que se usan DMA, IRQ y E/S programada en dispositivos reales.&lt;br /&gt;Realiza una presentación con gráficos y ejemplos para cada método, resaltando sus aplicaciones más comunes.&lt;br /&gt;Incluye un cuadro comparativo con los beneficios y limitaciones de cada técnica.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Ejercicio práctico de programación mediante diagramas&lt;/strong&gt;&lt;br /&gt;&lt;em&gt;Objetivo&lt;/em&gt;: Experimentar con la implementación de interrupciones en programación.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Actividad&lt;/em&gt;: Realiza un diagrama que simule el manejo de interrupciones con IRQ.&lt;br /&gt;donde se simule las funciones de los dispositivos periféricos que generen interrupciones.&lt;br /&gt;Analiza el comportamiento del código y cómo se optimiza el uso de la CPU con interrupciones.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Juego de roles: Simulación de procesos de una computadora&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Objetivo&lt;/em&gt;: Comprender el funcionamiento de los métodos de transferencia de datos a través de un modelo (diagrama).&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Actividad&lt;/em&gt;: Con los siguientes elementos como CPU, memoria, dispositivos periféricos y controladores DMA/IRQ.&lt;br /&gt;Simula cómo cada método maneja la comunicación entre los dispositivos, destacando cuándo la CPU interviene y cuándo no.&lt;br /&gt;Usa elementos visuales(imágenes, como etiquetas o cartas, etc... para representar cuándo se produce una interrupción o una transferencia de datos.)&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Actividades Parte 2: Realiza actividades en las que los diagramas y mapas ayudarán a visualizar el funcionamiento de DMA, IRQ y E/S programada:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4. Mapa conceptual de los métodos de E/S&lt;/strong&gt;&lt;br /&gt;&lt;em&gt;Objetivo&lt;/em&gt;: Organizar de forma gráfica los conceptos clave.&lt;br /&gt;&lt;em&gt;Actividad&lt;/em&gt;: Crea un mapa conceptual donde se conecten los métodos de E/S con sus características principales.&lt;br /&gt;Se establecen relaciones entre velocidad de transferencia, intervención de la CPU y eficiencia.&lt;br /&gt;Al final, comparar los mapas e indicar cuál método resulta más óptimo en diferentes escenarios.&lt;br /&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5. Diagrama de flujo de la transferencia de datos&lt;/strong&gt;&lt;br /&gt;&lt;em&gt;Objetivo&lt;/em&gt;: Representar el paso a paso de la gestión de datos con cada método.&lt;br /&gt;&lt;em&gt;Actividad&lt;/em&gt;: Se dibujan diagramas de flujo que expliquen cómo se procesan las solicitudes de interrupción, la transferencia DMA y la E/S programada.&lt;br /&gt;Se usan colores o símbolos para identificar cuándo interviene la CPU y cuándo el proceso ocurre sin su participación directa.&lt;br /&gt;Cada grupo presenta su diagrama y analiza sus ventajas frente a los otros métodos.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;6. Mapa de procesos en hardware y software&lt;/strong&gt;&lt;br /&gt;&lt;em&gt;Objetivo&lt;/em&gt;: Relacionar los conceptos con ejemplos reales.&lt;br /&gt;&lt;em&gt;Actividad&lt;/em&gt;: Se diseñan mapas que conecten los métodos de E/S con dispositivos reales: discos duros, tarjetas de sonido, impresoras, etc.&lt;br /&gt;Se clasifican los dispositivos según qué método utilizan y qué impacto tiene en el rendimiento de la computadora.&lt;br /&gt;Se comparan mapas y se reflexiona sobre la mejor opción para diferentes usos.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;7. Diseño de arquitectura con diagramas de bloques&lt;/strong&gt;&lt;br /&gt;&lt;em&gt;Objetivo&lt;/em&gt;: Visualizar la comunicación entre CPU, memoria y periféricos.&lt;br /&gt;&lt;em&gt;Actividad&lt;/em&gt;: Se crean diagramas de bloques que representen la arquitectura del sistema en cada método de E/S.&lt;br /&gt;Se incluyen elementos clave como buses de datos, controladores y dispositivos.&lt;br /&gt;Al final, se discute cómo la elección del método afecta el rendimiento general del sistema.&lt;br /&gt;Estas actividades refuerzan el aprendizaje a través de representaciones visuales. ¿Te gustaría que agregara alguna actividad más práctica con software de simulación? 🚀&lt;/p&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list></list>
+                <string role="key" value="idevice"></string>
+                <reference key="31"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="0"></int>
+              <string role="key" value="parentNode"></string>
+              <reference key="32"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="6"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Text and Tasks"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="32"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="5"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="2"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Inicio:Cierre"></string>
+        <string role="key" value="parent"></string>
+        <reference key="4"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list>
+         <instance class="exe.engine.node.Node" reference="35">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="actividad integral"></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="33">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value=""></unicode>
+              <string role="key" value="_attributes"></string>
+              <list>
+               <tuple>
+                <string value="title"></string>
+                <list>
+                 <string value="Title"></string>
+                 <int value="0"></int>
+                 <int value="0"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="category"></string>
+                <list>
+                 <string value="Category"></string>
+                 <int value="0"></int>
+                 <int value="1"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="css-class"></string>
+                <list>
+                 <string value="CSS class"></string>
+                 <int value="0"></int>
+                 <int value="2"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="icon"></string>
+                <list>
+                 <string value="Icon"></string>
+                 <int value="0"></int>
+                 <int value="3"></int>
+                </list>
+               </tuple>
+              </list>
+              <string role="key" value="_author"></string>
+              <string value=""></string>
+              <string role="key" value="_iDeviceDir"></string>
+              <string value="text"></string>
+              <string role="key" value="_purpose"></string>
+              <string value=""></string>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="_typeName"></string>
+              <unicode value="Text"></unicode>
+              <string role="key" value="_valid"></string>
+              <bool value="1"></bool>
+              <string role="key" value="class_"></string>
+              <unicode value="text"></unicode>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+              <int value="1"></int>
+              <string role="key" value="fields"></string>
+              <list>
+               <instance class="exe.engine.field.TextAreaField" reference="34">
                 <dictionary>
                  <string role="key" value="_id"></string>
                  <unicode value="129_2"></unicode>
                  <string role="key" value="_idevice"></string>
-                 <reference key="31"></reference>
+                 <reference key="33"></reference>
                  <string role="key" value="_instruc"></string>
                  <string value=""></string>
                  <string role="key" value="_name"></string>
@@ -1808,7 +1933,7 @@
                    <string role="key" value=".listitems"></string>
                    <list></list>
                    <string role="key" value="idevice"></string>
-                   <reference key="32"></reference>
+                   <reference key="34"></reference>
                   </dictionary>
                  </instance>
                  <string role="key" value="intlinks_to_anchors"></string>
@@ -1816,7 +1941,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <reference key="33"></reference>
+                 <reference key="35"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -1833,7 +1958,7 @@
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="33"></reference>
+              <reference key="35"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
@@ -1858,7 +1983,7 @@
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:Inicio:Cierre:actividad%20integral"></string>
            <string role="key" value="parent"></string>
-           <reference key="30"></reference>
+           <reference key="32"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
@@ -1878,11 +2003,11 @@
    <unicode role="key" value="3"></unicode>
    <reference key="14"></reference>
    <unicode role="key" value="4"></unicode>
-   <reference key="26"></reference>
+   <reference key="28"></reference>
    <unicode role="key" value="5"></unicode>
-   <reference key="30"></reference>
+   <reference key="32"></reference>
    <unicode role="key" value="6"></unicode>
-   <reference key="33"></reference>
+   <reference key="35"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -1893,7 +2018,7 @@
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="33"></reference>
+  <reference key="14"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -2909,7 +3034,7 @@
    </list>
    <string role="key" value="464c01eac5ce6685f6e3b914fc9d2cf8"></string>
    <list>
-    <reference key="27"></reference>
+    <reference key="29"></reference>
    </list>
    <string role="key" value="87b5e9db9d5cdd1a381787449bfc884c"></string>
    <list>
