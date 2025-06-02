@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Desarrollo | METODOS DE E/S. </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-4"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">METODOS DE E/S.</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Inicio</a></li>
+   <li><a href="introduccin.html" class="daddy">Introducción</a>
+   <ul class="other-section">
+      <li><a href="competencia.html" class="no-ch">Competencia</a></li>
+      <li><a href="actividad_preliminar.html" class="no-ch">Actividad preliminar</a></li>
+   </ul>
+   </li>
+   <li id="active"><a href="desarrollo.html" class="active no-ch">Desarrollo</a></li>
+   <li><a href="cierre.html" class="daddy">Cierre</a>
+   <ul class="other-section">
+      <li><a href="actividad_integral.html" class="no-ch">actividad integral</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="actividad_preliminar.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="cierre.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Desarrollo</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id0">
+<div class="iDevice emphasis0" >
+<div id="ta0_130_2" class="block iDevice_content">
+<div class="exe-text"><p>Cuando hablamos de E/S de información entre un computador y un periférico lo hacemos siempre desde el punto de vista del computador. Así, decimos que es una transferencia de entrada cuando el periférico es el emisor de la información y tiene como receptor el computador (procesador o memoria) y decimos que es una transferencia de salida cuando el computador es el emisor de la información y tiene como receptor el periférico. De manera más concreta, toda operación de E/S que se lleva a cabo entre el computador y un periférico es solicitada y gobernada desde el procesador, es decir, es el procesador quien determina en qué momento se debe hacer y con qué periférico, si la operación es de lectura o escritura, qué datos se han de transferir, y también quién da la operación por acabada.</p>
+<p>Para llevar a cabo la operación de E/S, se a de conectar el periférico al computador. Para hacerlo, es necesario que el computador disponga de unos dispositivos intermedios por donde ha de pasar toda la información que intercambia el computador con el periférico y que permite hacer una gestión y un control correctos de la transferencia. Estos dispositivos son llamados de manera genérica módulo de E/S.</p>
+<p><a href="https://telegra.ph/sistema-de-entrada--salida-part-I-01-13" target="_blank" rel="noopener">sistema de entrada / salida (part I)</a></p>
+<p>Para llevar a cabo la operación de E/S, hemos de conectar el periférico al computador. Para hacerlo, es necesario que el computador disponga de unos dispositivos intermedios por donde ha de pasar toda la información que inter- cambia el computador con el periférico y que nos permite hacer una gestión y un control correctos de la transferencia. Estos dispositivos los llamamos de manera genérica módulo de E/S. </p>
+<p><img src="img0.png" width="229" height="267" alt="periferico" /></p>
+<p>Un módulo de E/S es un controlador de uno o varios periféricos que establece una interfaz entre el periférico y el computador (procesador y memoria) para facilitar la comunicación entre el uno y el otro de manera que buena parte de los detalles técnicos del periférico queden ocultos al resto del computador.</p>
+<p><a href="https://telegra.ph/m%C3%B3dulos-de-es-part-II-01-13" target="_blank" rel="noopener">módulos de e/s (part II)</a></p>
+<p></p>
+<p><a href="https://telegra.ph/direccionamiento-de-m%C3%B3dulos-es-01-13" target="_blank" rel="noopener">direccionamiento de módulos e/s (part III)</a></p>
+<p>Todos los computadores deben gestionar más de un periférico y estos pueden trabajar al mismo tiempo; por ejemplo, estamos imprimiendo un documento que tenemos guardado en el disco mientras escribimos un texto con el teclado que se muestra por pantalla. Por lo tanto, hemos de prever que nuestro sistema de E/S pueda gestionar transferencias de E/S con dos o más periféricos simultáneamente. Eso quiere decir que de manera simultánea dos o más módulos de E/S deben estar preparados para hacer la transferencia de datos con el procesador, pero la transferencia no la podemos hacer al mismo tiempo. Por este motivo, hemos de disponer de un sistema que, primero, nos permita determinar cuáles son los módulos a los que tenemos que atender (identificar los módulos de E/S que están preparados para la operación de E/S) y, segundo, nos permita decidir a quién atendemos primero, teniendo en cuenta que si ya atendemos a otro periférico o hacemos otra tarea más prioritaria no la podemos interrumpir (establecer una política de prioridades).</p>
+<p><a href="https://telegra.ph/gesti%C3%B3n-de-la-ES-part-IV-01-13" target="_blank" rel="noopener">gestión de la E/S (part IV)</a></p>
+<p>Las técnicas de E/S que  requieren una dedicación importante del procesador (ejecutar un fragmento de código) para hacer simples transferencias de datos. Si queremos transferir bloques de datos, estas técnicas todavía ponen más en evidencia la ineficiencia que tienen. En E/S programada implica que el procesador no pueda hacer nada más y en E/S por interrupciones descargamos el procesador de la sincronización a costa de hacer las rutinas de atención más largas para garantizar el estado del procesador, lo que limita la velocidad de transferencia.</p>
+<p><a href="https://telegra.ph/acceso-directo-a-memoria-part-VI-01-13" target="_blank" rel="noopener">acceso directo a memoria</a></p>
+<p></p>
+<p></p>
+<p></p></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="actividad_preliminar.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="cierre.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_escolares_js.js"></script></body></html>
